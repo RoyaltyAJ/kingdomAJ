@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">  
+  <head>    
+    <title>Proyecto POO</title>    
+    <meta charset="UTF-8">
+    <meta name="title" content="Portal web">
+    <meta name="description" content="Portal web">    
+    <link rel="stylesheet" href="hoja-de-estilo.css" type="text/css"> 
+  </head>  
+  
+  <body>    
+    
+    <header id="proyectodecabecera">
+      <h1 id="h1">Proyecto</h1>
+      <img id="img" src="imagenes/IUJO.gif" alt="iujo">       
+    </header>    
+      
+    <nav id="glosario">
+        <a id="a" href="http://dominio.com/seccion2.html">Glosario</a>
+      </nav>
+      <center>
+      <section id="contenidoprincipal">      
+      <form id="publicacion-form"></form>
+        <h2>Articulo publicado</h2>
+        <input id="" type="submit" value="Subir archivo">
+        <form id="articulo-form">
+            <div> 
+              <input type="text" id="nombre" placeholder="nombre">
+              <input type="text" id="apellido" placeholder="apellido">
+              <input type="text" id="carrera" placeholder="carrera">
+              <input type="text" id="titulo" placeholder="titulo">
+              <textarea input type="text" id="comentario" id="comentario" placeholder="comentario" rows="10" cols="40"></textarea>
+            </div>
+        </form>
+        <div>
+          <div>
+              <input type="number" id="año" min="1900" max="2050" placeholder="fecha de la publicacion">
+          </div>      
+        </div>
+        <div id="lista de publicaciones"></div>
+        <input id="boton" type="submit" value="Publicar articulo">
+      </center>
+      
+    </section>
+
+    <footer id="avisoslegales">
+      <h4>Avisos legales</h4>
+      <a href="http://dominio.com/aviso-legal">Citas bibliograficas</a>
+    </footer>
+    <script src="interfaz.js"></script>
+  </body>  
+
+  </html>
